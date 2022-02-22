@@ -1,5 +1,5 @@
 # Return Error
-# A Library to return an HTTP response containing an error message and HTTP status 500
+# A Library for an Azure Functions App to return an HTTP response containing an error message and HTTP status 500
 
 import json
 import azure.functions as func

@@ -3,7 +3,7 @@ Various miscellaneous python scripts that might be useful to a variety of projec
 
 # Contents
 dataclean
-Process text to remove punctuation, lower, etc. Removes NLTK's stopwords (stopwords.obj) and, optionally, words frequently found in the Federal Register such as "rule" and "regulation."
+Process text to remove punctuation, lower, etc. Removes NLTK's stopwords (stopwords.obj) and, optionally, additional, user-supplied stopwords.
 
 pickle_it
 Shortcut wrapper to save a Python object into a pickle file.
@@ -17,7 +17,7 @@ Print (error) messages and append them to a text file. Synchronous & asynchronou
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
 1.	Installation process: https://git-scm.com/book/en/v2/Git-Tools-Submodules#_git_submodules
-        1. TLDR: git submodule add https://pcxhub-MLUtilities@dev.azure.com/pcxhub-MLUtilities/IntakeTextProcessing/_git/utils
+        1. TLDR: git submodule add [URL to the submodule's git repository]
         2. To use: from utils.pickle_it import pickle_it
 2.	Software dependencies
         Python 3.8
@@ -25,14 +25,3 @@ TODO: Guide users through getting your code up and running on their own system. 
 4.	API references
 
 NB: If you've cloned a repository that used this repository as a submodule then you may already have a utils folder, but it may be empty. git rm utils, then git submodule add this repository.
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
